@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora de media</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+        <img src=".\images\logo.png" alt="capelo com diploma">
+        <h1>Calculadora de media</h1>
+    </header>
+        <form id="atividade">
+            <div class="header">
+                <input type="text" id="input-nome" required placeholder="nome da atividade">
+                <input type="number" id="input-nota" required placeholder="nome da atividade da atividade" min="0" max="10">
+                <button type="submit">adicionar+</button>
+            </div>
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>
+                            nome da atividade
+                        </th>
+                        <th>
+                            nota da atividade
+                        </th>
+                        <th>
+                             aprovado?
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <tfoot>
+                    <td>Media final</td>
+                    <td id="nota-media">0</td>
+                    <td><span class="resultado" id="resultado">- - -</span></td>
+                </tfoot>
+            </table>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
