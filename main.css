@@ -92,3 +92,11 @@ table td img:hover {
 table thead tr th {
     padding: 0 8px;
 }
+.perfeito {
+    padding: 8px ;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(37, 228, 218);
+    border: rgb(37, 228, 218) solid 3px;
+    border-radius: 3px;
+}
